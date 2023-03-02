@@ -1,0 +1,70 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   
+}
+
+.App{ 
+
+ display:grid;
+ justify-content: center; 
+ align-items:first baseline;
+ height: 100vh; 
+ background-color: hsl(20, 10%, 75%);
+ 
+}
+
+.fortune-card {   
+ 
+ padding: 10px;
+ margin: 80px;
+ color: black;
+ text-align: center;
+ font-size: 4em;
+ text-shadow: 2px -8px 10px orange;   
+ width:auto; 
+
+}
+
+.phrases {  
+  
+  color: black;  
+  text-align: center; 
+  font-size: 1.2em;
+  
+}
+
+button {      
+
+    padding: 0.6em 1.2em;
+    margin: auto;
+    font-size: 13px;
+    font-weight: 500;      
+    background-color: orange;
+    box-shadow: -2px -13px 25px orange, -1px -13px 13px black;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    width:max-content;
+
+  }
+
+  button:hover {
+
+    border-color: #111bd0;
+
+  }
+
+.card {  
+  color: white; 
+  text-shadow: 2px -8px 10px orange;  
+  background-repeat: no-repeat;
+  background-image: url(./assets/fondo1.png);
+  background-position: center center;
+ 
+  min-width: 100vh;
+  min-height: 100vh;
+  
+}
